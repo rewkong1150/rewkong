@@ -1,13 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState, useEffect,useRef } from 'react';
+import WordCard from './component/WordCard'
+import './App.css'
+import _ from 'lodash';
 function App() {
   return (
     <div>
-      Hello World (555)
+      <WordCard/>
     </div>
   );
 }
-
 export default App;
